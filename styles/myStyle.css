@@ -16,7 +16,9 @@ body {
     color: #FFFFFF;
     background: url(../images/spaceship%20no%20background.png);
     background-size: cover;
-    background-color: #000000;
+    background-color: #12213a;
+    height: 94vh;
+    overflow: hidden;
 }
 
 .hidden {
@@ -94,6 +96,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border: solid 4px;
+    border-color: #FFFFFF;
 }
 
 #displayTerrain {
