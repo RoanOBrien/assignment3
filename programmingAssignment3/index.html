@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Planet of the API's</title>
+    <link rel="stylesheet" href="styles/myStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Orbitron|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+</head>
+
+<body class="content-wrap">
+    <div>
+        <h2 id="timeHeader">CURRENT TIME:</h2>
+        <p id="time"></p>
+    </div>
+
+<!--
+    <div class="center-align">
+        <p id="warning">WARNING! You are now landing in the sea!</p>
+    </div>
+-->
+
+    <div>
+        <form action="#" method="post" id="cityForm">
+            <legend id="formatting">Check weather and terrain:</legend>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" />
+            <input type="submit" id="getWeather" value="get data" />
+        </form>
+        <article id="weather"></article>
+    </div>
+
+    <div class="center-align">
+        <p id="elevation"></p>
+    </div>
+
+    <div class="terrain-align">
+        <p id="displayTerrain">Current terrain type:</p>
+        <img id="show-terrain" src="images/stars.gif">
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

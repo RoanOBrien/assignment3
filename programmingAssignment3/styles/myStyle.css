@@ -1,0 +1,110 @@
+/* Global styles 
+------------------------------------*/
+/* border box fix */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: helvetica;
+    color: #FFFFFF;
+    background: url(../images/spaceship%20no%20background.png);
+    background-size: cover;
+    background-color: #000000;
+}
+
+.hidden {
+    display: none;
+}
+
+.content-wrap {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    overflow: hidden;
+}
+
+#elevation {
+    position: relative;
+    color: white;
+    top: -200px;
+    text-align: center;
+    width: 100%;
+}
+
+#weather {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    padding: 6px;
+    margin-bottom: 15px;
+    text-align: center;
+    top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cityForm {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 550px;
+    top: 500px;
+}
+
+#formatting {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#city {
+    position: relative;
+    margin: 5px;
+}
+
+#time {
+    position: relative;
+    top: -91px;
+    left: 750px;
+    font-size: 40px;
+    font-family: "Aldrich", sans-serif;
+}
+
+#timeHeader {
+    position: relative;
+    font-family: "Aldrich", sans-serif;
+    font-size: 40px;
+    left: 410px;
+    top: -12px;
+}
+
+#show-terrain {
+   height: 450px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#displayTerrain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    text-align: center;
+}
+
+.terrain-align {
+    position: relative;
+    top: -200px;
+}
